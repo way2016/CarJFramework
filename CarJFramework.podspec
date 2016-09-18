@@ -26,17 +26,12 @@ Pod::Spec.new do |s|
   s.framework = "UIKit"
   s.dependency 'AWSCore', '~> 2.4.2'
   s.dependency 'AWSCognitoIdentityProvider', '~> 2.4.2'
-  s.dependency 'GoogleMaps'
-  s.dependency 'GooglePlaces'
-  s.dependency 'GooglePlacePicker'
-  s.dependency 'Google-Maps-iOS-Utils'
-  s.dependency 'Firebase'
 
   # 8
   s.source_files  = "CarJFramework", "CarJFramework/**/*.{h,m,swift}"
 
   s.public_header_files = "CarJFramework/**/*.h"
 
-  s.resources = "CarJFramework/Resources/**/*.{png,jpeg,jpg,storyboard,xib}"
+#s.resources = "CarJFramework/Resources/**/*.{png,jpeg,jpg,storyboard,xib}"
 
 end
