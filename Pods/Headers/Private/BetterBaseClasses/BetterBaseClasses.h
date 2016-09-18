@@ -1,0 +1,1 @@
+../../../BetterBaseClasses/BetterBaseClasses/Library/BetterBaseClasses.h
